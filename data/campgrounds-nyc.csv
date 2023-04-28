@@ -1,0 +1,177 @@
+﻿longitude,latitude,code,name,type,phone,dates_open,comments,num_sites,elevation,amenities,state,nearest_town_distance,nearest_town_bearing,city
+-74.131,40.162,ALLA,Allaire State Park,SP,732.938.2371,all year,,45,,NH DP 40ft FT DW SH RS,NJ,3.1,SE,Farmingdale
+-74.734,39.743,ATSI,Atsion - Wharton State Forest,SF,609.268.0444,,,50,,RS,NJ,2.4,S,Shamong
+-74.434,39.624,BASS,Bass River State Forest,SF,609.296.1114,,,175,,NH DP DW SH RS,NJ,5.2,W,Tuckerton
+-74.849,39.243,BELL,Belleplain State Forest,SF,609.861.2404,,,170,,NH DP DW SH RS,NJ,1.8,W,Woodbine
+-74.558,39.37,BIRC,Birch Grove,CP,609.641.3778,,,45,,E DP DW SH,NJ,0.4,W,Northfield
+-74.522,39.872,BREN,Brendan Byrne State Forest,SF,609.726.1191,,,72,,NH 50ft FT DW SH RS,NJ,12.7,E,Vincentown
+-75.038,40.41,BULL,Bulls Island State Park,SP,609.397.2949,early apr-late oct,,70,,NH SH RS,NJ,3.1,W,Stockton
+-74.266,40.446,CHEE,Cheesequake State Park,SP,732.566.2161,early apr-late oct,,50,,NH DP DW SH RS,NJ,2.6,SE,South Amboy
+-74.157,40.264,EARL,Earle RV Military,MIL,732.866.2448,,military only - do not use our lat/lon - contact them for directions and info,,,RS,NJ,1.8,SE,Colts Neck
+-74.547,39.69,GODF,Godfrey Bridge - Wharton State Forest,SF,609.561.0024,,,50,,RS,NJ,8.8,S,Chatsworth
+-74.689,41.291,HIGH,High Point State Park - Sawmill Area,SP,973.875.4800,early apr-late oct,highest point in NJ - some walk-to sites,50,,NH ND FT DW NS RS,NJ,7,NW,Sussex
+-74.915,40.917,JENN,Jenny Jump State Forest,SF,908.459.4366,,,20,,NH DW SH RS,NJ,5.1,SE,Blairstown
+-74.59,41.002,MAHL,Mahlon Dickerson Reservation,CP,973.697.3140,,,18,,WE DP DW SH,NJ,4,N,Lake Hopatcong
+-75,41.027,MOHI,Mohican Walk-In Campsites,AMC,603.466.2727,,rustic-short walk in-better get reservations,7,,NH SH RS,NJ,3.7,NW,Blairstown
+-74.762,41.227,OCQU,Ocquittunk - Stokes State Forest,SF,973.948.3820,,,25,,RS,NJ,5.6,N,Branchville
+-75.139,39.509,PARV,Parvin State Park,SP,856.358.8616,early apr-late oct,,55,,NH DP DW SH RS,NJ,2.1,S,Pittsgrove Twp.
+-74.552,40.001,RANG,Range 14 Camp Military - Ft Dix,MIL,609.562.6667,,military only - do not use our lat/lon - contact them for directions and info,,,RS,NJ,2.5,NE,Browns Mills
+-73.991,40.45,SANH,Sandy Hook - Gateway National Rec Area,NP,718.354.4655,,ferry during peak season - tents only - no showers,20,,NH ND FT DW NS RS,NJ,3.2,N,Highlands
+-74.795,41.198,SHOT,Shotwell - Stokes State Forest,SF,973.948.3820,,,25,,RS,NJ,1.2,SE,Sandyston
+-74.939,40.663,SPRU,Spruce Run Recreation Area,SP,908.638.8572,early apr-late oct,,65,,NH 35ft RS,NJ,4.3,NW,Clinton
+-74.81,40.872,STEP,Stephens State Park,SP,908.852.3790,early apr-late oct,,40,,NH 40ft RS,NJ,1.6,NE,Hackettstown
+-74.82,41.076,SWAR,Swartswood State Park,SP,973.383.5230,early apr-late oct,,65,,NH DP DW SH RS,NJ,3.7,W,Newton
+-74.298,40.197,TURK,Turkey Swamp,CP,732.462.7286,,,60,,E DP 40ft DW SH,NJ,2.5,S,Freehold
+-74.887,40.696,VOOR,Voorhees State Park,SP,908.638.6969,early apr-late oct,,45,,NH DP DW SH RS,NJ,2.8,E,Glen Gardner
+-74.611,40.011,WILP,Willow Pond Camp Military - Ft Dix,MIL,609.562.6667,,military only - do not use our lat/lon - contact them for directions and info,,,RS,NJ,1.4,S,Fort Dix
+-75.104,41.005,WORT,Worthington State Forest,SF,908.841.9575,,,70,,NH ND DW SH RS,NJ,5.5,N,Columbia
+-73.423,44.568,AUSA,Ausable Point  - DEC,SPR,518.561.7080,mid may-late sep,,,,NH DP SH RS PA,NY,5.1,E,Peru
+-76.807,42.485,BACK,Backbone Horse Camp,NF,607.546.4470,all year,horses or not,11,,NH ND VT NW NS NR N$,NY,5,NE,Burdett
+-73.449,40.762,BATT,Battle Row,CP,516.572.8690,,,,,E DP DW SH,NY,0.2,E,Old Bethpage
+-75.069,42.118,BEAR,Bear Spring Mountain - DEC,SPR,607.865.6989,mid may-late aug,,,1912,NH DP DW SH RS PA,NY,4.7,SE,Walton
+-74.07,41.229,BEVP,Beaver Pond - Harriman State Park,SP,845.947.2792,early may-late sep,,,,NH DP 35ft DW SH RS,NY,4.3,W,Stony Point
+-74.839,41.979,BEVK,Beaverkill - DEC,SPR,845.439.4281,mid may-late aug,,,,NH DP FT DW SH RS PA,NY,4.9,NE,Roscoe
+-73.925,41.27,BLUE,Blue Mountain Reservation,CP,914.862.5275,,,,,WE DW,NY,1.4,S,Peekskill
+-76.799,42.484,BLUB,Blueberry Patch,NF,607.546.4470,mid may-late nov,pick berries,9,,NH ND VT NW NS NR L$,NY,5.1,NE,Burdett
+-73.222,40.825,BLYD,Blydenburgh Park,CP,631.854.3712,,,,,NH,NY,2.4,SW,Smithtown
+-75.68,42.522,BOWM,Bowman Lake State Park,SP,607.334.2718,mid may-late sep,,,1712,NH DP DW SH RS PA,NY,6.9,NW,Oxford
+-74.118,44.505,BUCK,Buck Pond - DEC,SPR,518.891.3449,mid may-late aug,,,1681,NH DP DW SH RS PA,NY,5.9,NE,Gabriels
+-76.265,44.163,BURN,Burnham Point State Park,SP,315.654.2324,early jun-late aug,,,,E DP DW SH RS PA,NY,4.2,NE,Cape Vincent
+-76.521,42.416,BUTT,Buttermilk Falls State Park,SP,607.273.5761,all year,,,,NH DW SH RS PA,NY,2.1,SW,Ithaca
+-78.846,42.037,CAIN,Cain Hollow (Quaker Area) - Allegany State Park,SP,716.354.2182,all year,,,,E DP SH RS,NY,10.7,SW,Salamanca
+-74.468,43.125,CARO,Caroga Lake - DEC,SPR,518.835.4241,mid may-late aug,,,1506,NH DP DW SH RS PA,NY,9.6,NW,Johnstown
+-72.943,40.87,CATH,Cathedral Pines County Park,CP,631.852.5502,,,,,WE DW,NY,0.9,S,Middle Island
+-76.753,42.896,CAYU,Cayuga Lake State Park,SP,315.568.5163,early may-late sep,,,,E DP 40ft DW SH RS PA,NY,2.4,SE,Seneca Falls
+-76.197,44.204,CEDP,Cedar Point State Park,SP,315.654.2522,early may-late sep,,,,WES DP DW SH RS PA,NY,6,SW,Clayton
+-72.226,41.028,CEDS,Cedar Point Suffolk County Park,CP,631.852.7620,,,130,,WES DP,NY,5,NW,East Hampton
+-75.818,42.215,CHEN,Chenango Valley State Park,SP,607.648.5251,mid may-late sep,,,,E DP 50ft DW SH RS PA,NY,2.1,SE,Chenango Forks
+-73.41,42.622,CHER,Cherry Plain State Park,SP,518.733.5400,mid jun-late sep,,30,,NH RS PA,NY,2.7,W,Cherry Plain
+-73.831,41.461,CLAR,Clarence Fahnestock State Park,SP,845.225.7207,mid may-mid oct,,,,NH DW SH RS PA,NY,8.1,W,Carmel
+-76.86,42.384,CLUT,Clute Memorial Park,CP,607 535.4438,,,,,E DP DW SH,NY,0.7,E,Watkins Glen
+-75.14,44.892,COLE,Coles Creek State Park,SP,315.388.5636,mid may-late aug,,,,E RS PA,NY,3.6,NE,Waddington
+-75.743,42.3,COOK,Cook County Park,CP,607.656.8752,early may-late oct,,40,,E DP DW SH,NY,2.5,SE,Greene
+-73.52,42.121,COPA,Copake Falls - Taconic State Park,SP,518.329.3993,all year,,,,NH DP DW SH RS PA,NY,0.3,E,Copake Falls
+-74.821,44.197,CRAN,Cranberry Lake  - DEC,SPR,315.848.2315,mid may-mid oct,,,1605,NH DP DW SH RS PA,NY,1.9,SE,Cranberry Lake
+-73.896,41.178,CROT,Croton Point Park,CP,,,,,,E,NY,2.1,S,Croton-on-Huds
+-73.425,44.025,CROW,Crown Point - DEC,SPR,518.597.3603,mid may-late sep,,,,NH DP DW SH RS PA,NY,5.2,N,Crown Point
+-73.426,44.725,CUMB,Cumberland Bay State Park,SP,518.563.5240,mid may-late sep,,,,E DP 50ft DW SH RS PA,NY,2.2,NE,Plattsburg
+-72.738,40.771,CUPS,Cupsogue County Park,CP,631.852.8111,,unknown facilities - beach roadside camping,,,NH DW SH,NY,5.3,SW,Westhampton
+-78.433,42.902,DARI,Darien Lakes State Park,SP,716.547.9242,mid may-mid sep,,,,E DP 40ft DW SH RS PA,NY,2.3,W,Darien Center
+-75.417,43.292,DELT,Delta Lake State Park,SP,315.337.4670,mid may-late sep,,,,NH DP DW SH RS PA,NY,5.8,N,Rome
+-74.208,42.151,DEVI,Devils Tombstone - DEC,SPR,845.688.7160,mid may-late sep,,,1920,NH RS PA,NY,3.2,NE,Lanesville
+-75.997,44.33,DEWO,DeWolf Point State Park,SP,315.482.2012,early jul-late aug,,,,NH RS PA,NY,3.1,N,Fineview
+-73.793,43.748,EAGL,Eagle Point - DEC,SPR,518.494.2220,mid may-late aug,,,,NH DP DW SH RS PA,NY,1.7,NE,Pottersville
+-75.223,42.327,EAST,East Sidney Dam Rec Area,CP,607.829.6433,,unknown facilities,,,NH,NY,8.7,E,Sidney
+-75.477,44.63,EELW,Eel Weir State Park,SP,315.393.1138,early jun-late aug,,,,NH DW SH RS PA,NY,4.5,S,Ogdensburg
+-74.712,43.763,EIGH,Eighth Lake - DEC,SPR,315.354.4120,mid may-late sep,,,1791,NH DP DW SH RS PA,NY,4.1,E,Inlet
+-79.115,42.602,EVAN,Evangola State Park,SP,716.549.1802,mid apr-mid oct,,,,E DP DW SH RS PA,NY,2.4,N,Irving
+-76.689,43.343,FAIR,Fair Haven Beach State Park,SP,315.947.5205,all year,,,,E DP RS PA,NY,1.9,N,Fair Haven
+-76.42,42.7,FILL,Fillmore Glen State Park,SP,315.497.0130,early may-late sep,,,,E DP 50ft DW SH RS PA,NY,0.9,S,Moravia
+-74.365,44.308,FISH,Fish Creek Pond - DEC,SPR,518.891.4560,mid may-mid oct,,,1582,NH DP DW SH RS PA,NY,7.6,NE,Tupper Lake
+-73.889,40.582,FLOB,Floyd Bennett Field - Gateway National Rec Area,NP,718.354.4655,,Brooklyn - has bus service - tents & RVs - showers $10.,38,,NH ND FT DW SH RS,NY,5.7,SE,Brooklyn
+-74.525,43.905,FORK,Forked Lake - DEC,SPR,518.624.6646,mid may-late aug,,,1752,NH RS PA,NY,7,SW,Long Lake
+-74.059,40.605,FORW,Fort Wadsworth - Gateway National Rec Area,NP,718.354.4655,,Staten Island - has bus service - tents only - cold showers,7,,NH ND FT DW SH RS,NY,5.1,E,Staten Island
+-78.995,43.274,FOUR,Four Mile Creek State Park,SP,716.745.3802,early apr-mid oct,,,,E RS PA,NY,3.3,NE,Youngstown
+-75.128,42.573,GILB,Gilbert Lake State Park,SP,607.432.2114,mid may-late sep,,,1553,E DP 50ft DW SH RS PA,NY,3.5,NW,Laurens
+-74.869,42.794,GLIM,Glimmerglass State Park,SP,607.547.8662,all year,,,,NH DP DW SH RS PA,NY,7,NE,Cooperstown
+-74.592,43.817,GOLB,Golden Beach - DEC,SPR,315.354.4230,mid may-late aug,,,1800,NH DP DW SH RS PA,NY,26.5,N,Piseco
+-78.483,43.374,GOLH,Golden Hill State Park,SP,716.795.3885,all year,,,,E DP DW SH RS PA,NY,4.7,NE,Barker
+-75.995,44.279,GRAS,Grass Point State Park,SP,315.686.4472,all year,,,,E DP 40ft DW SH RS PA,NY,5.5,SW,Alexandria Bay
+-76.005,43.056,GREE,Green Lakes State Park,SP,315.637.6111,all year,,,,E DP 50ft DW SH RS PA,NY,1.8,N,Fayetteville
+-76.086,42.288,GREW,Greenwood County Park,CP,,,,50,,E DP DW SH,NY,15.7,NW,Binghamton
+-77.946,43.36,HAML,Hamlin Beach State Park,SP,716.964.2462,mid may-late sep,,,,E DP DW SH RS PA,NY,4.2,N,Hamlin
+-76.831,42.337,HAVA,Havana Glen,CP,607.535.9476,,,25,,,NY,1,SE,Montour Falls
+-73.694,43.455,HEAR,Hearthstone Point - DEC,SPR,518.668.5193,mid may-late aug,,,,NH DP DW SH RS PA,NY,8.6,N,Lake George Vi
+-76.226,42.091,HICK,Hickories Park,CP,631.854.4949,,,,,E DP 40ft DW SH,NY,2,SE,Owego
+-74.922,44.496,HIGL,Higley Flow State Park,SP,315.262.2880,mid may-late aug,,,,E DP DW SH RS PA,NY,4,S,Colton
+-72.016,41.008,HITH,Hither Hills State Park,SP,631.668.2554,all year,,,,NH DP DW SH RS,NY,3.7,SW,Montauk
+-75.373,42.595,HUNT,Hunts Pond,SP,607.674.4017,,,,,NH ND NS NR,NY,2.9,SW,New Berlin
+-72.629,40.927,INDI,Indian Island Park,CP,631.852.3232,,,,,NH DP,NY,1.9,E,Riverhead
+-75.677,44.559,JACQ,Jacques Cartier State Park,SP,315.375.6371,mid may-mid sep,,,,E DP DW SH RS PA,NY,2.3,SW,Morristown
+-77.722,42.342,KANA,Kanakadea Park - Almond Lake,CP,607.664.2460,,,,,E DP,NY,3.3,W,Hornell
+-75.93,44.324,KEEW,Keewaydin State Park,SP,315.482.3331,early jun-late aug,,,,NH DW SH RS PA,NY,1,SW,Alexandria Bay
+-74.221,42.027,KENN,Kenneth L. Wilson - DEC,SPR,845.679.7020,mid may-late sep,,76,,NH SH RS PA,NY,3.1,SE,Mt.Tremper
+-77.13,42.583,KEUK,Keuka Lake State Park,SP,315.536.3666,early may-mid oct,,,,E DP DW SH RS PA,NY,2.5,SW,Bluff Point
+-75.855,44.377,KRIN,Kring Point State Park,SP,315.482.2444,early may-late sep,,,,E DP DW SH RS PA,NY,5.9,NW,Redwood
+-74.389,43.838,LAKD,Lake Durant - DEC,SPR,518.352.7797,mid may-late sep,,,1779,NH DP SH RS PA,NY,7.3,NW,Indian Lake
+-74.463,43.988,LAKE,Lake Eaton - DEC,SPR,518.624.2641,mid may-late aug,,,1731,NH DP DW SH RS PA,NY,2.4,NW,Long Lake
+-79.429,42.421,LAKR,Lake Erie State Park,SP,716.792.9214,all year,,,,E DP 50ft DW SH RS PA,NY,2.3,N,Brocton
+-73.712,43.414,LAKG,Lake George Battleground - DEC,SPR,518.668.3348,mid may-late sep,,,,NH DP DW SH RS PA,NY,6.1,N,Lake George Vi
+-74.13,43.979,LAKH,Lake Harris - DEC,SPR,518.582.2503,mid may-late aug,,,1592,NH DP DW SH RS PA,NY,1.8,E,Newcomb
+-73.708,42.094,LAKT,Lake Taghkanic State Park,SP,518.851.3631,all year,,,,NH DP RS PA,NY,4.7,NW,Ancram
+-78.244,43.366,LAKB,Lakeside Beach State Park,SP,585.682.4888,mid may-late sep,,,,E DP DW SH RS PA,NY,3.4,N,Waterport
+-78.045,42.584,LETC,Letchworth State Park,SP,585.493.3600,all year,,,,E DP DW SH RS PA,NY,3.1,S,Castile
+-74.394,43.651,LEWE,Lewey Lake - DEC,SPR,518.648.5266,mid may-late sep,,,1672,NH DP DW SH RS PA,NY,11.1,SW,Indian Lake
+-74.796,43.718,LIME,Limekiln Lake - DEC,SPR,315.357.4401,mid may-late aug,,,1953,NH DP DW SH RS PA,NY,2.5,S,Inlet
+-73.579,44.139,LINC,Lincoln Pond - DEC,SPR,518.942.5292,mid may-late aug,,,,NH DP DW SH RS PA,NY,2.3,SE,New Russia
+-74.735,42.036,LITP,Little Pond - DEC,SPR,845.439.5480,mid may-late sep,,,1971,NH DP DW SH RS PA,NY,9,SW,Margaretville
+-74.551,43.417,LITS,Little Sand Point - DEC,SPR,518.548.7585,mid may-late aug,,,1683,NH DP RS PA,NY,2.3,SW,Piseco
+-76.221,44.026,LONG,Long Point State Park,SP,315.649.5258,mid may-late aug,,,,E DP DW SH RS PA,NY,4,S,Three Mile Bay
+-73.826,43.361,LUZE,Luzerne - DEC,SPR,518.696.2031,mid may-late aug,,,,NH DP DW SH RS PA,NY,3.4,N,Lake Luzerne
+-73.616,44.616,MACO,Macomb Reservation State Park,SP,518.643.9952,early jun-late sep,,,,E DP DW SH RS PA,NY,3,W,Schuyler Falls
+-73.932,41.84,MARG,Margaret Norrie State Park,SP,845.889.4646,early may-mid oct,,,,NH 40ft RS PA,NY,0.7,S,Staatsburg
+-74.411,42.547,MAX,Max V Shaul State Park,SP,518.827.4711,early jul-late aug,,,,NH DW SH RS PA,NY,1.7,SW,Fultonham
+-72.373,41.104,MCCA,McCanns Campground,CP,631.477.0043,,,,,E DP DW SH,NY,0.7,W,Greenport
+-74.287,44.578,MEAC,Meacham Lake - DEC,SPR,518.483.5116,mid may-late sep,,,1555,NH DP DW SH RS PA,NY,18.7,S,Malone
+-74.077,44.299,MEAD,Meadowbrook - DEC,SPR,518.891.4351,mid may-late aug,,,1588,NH DP DW SH RS PA,NY,,,
+-74.399,43.493,MOFF,Moffitt Beach - DEC,SPR,518.548.7102,mid may-late sep,,,1757,NH DP DW SH RS PA,NY,1.9,W,Speculator
+-74.691,41.957,MONG,Mongaup Pond - DEC,SPR,845.439.4233,mid may-late sep,,,2155,NH DP DW SH RS PA,NY,3.5,NE,DeBruce
+-76.852,42.354,MONT,Montour Marina,CP,607/535.9397,,,85,,E DP DW SH,NY,0.6,NW,Montour Falls
+-73.707,43.227,MORE,Moreau Lake State Park,SP,518.793.0511,early jun-mid oct,,,,NH DP 40ft DW SH RS PA,NY,3.5,NW,Gansevoort
+-74.652,41.748,MORN,Morningside Park,CP,845.434.5877,,,,,E DP DW SH,NY,2.1,NW,South Fallsburg
+-73.569,41.309,MOUL,Mountain Lakes Park,CP,914.864.7312,,lean tos and yurts only,,,,NY,1.8,S,North Salem
+-74.518,41.699,MOUN,Mountaindale Park,CP,845.434.7337,,,,,E DP DW SH,NY,0.9,NE,Mountain Dale
+-76.734,42.044,NEWT,Newtown Battlefield State Park,SP,607. 732.6067,all year,,,,E DP 40ft DW SH RS,NY,4.9,SE,Elmira
+-74.982,43.688,NICK,Nicks Lake - DEC,SPR,315.369.3314,mid may-late sep,,,1753,NH DP SH RS PA,NY,9.4,S,Webb
+-74.037,42.203,NORS,North/South Lake  - DEC,SPR,518.589.5058,early may-mid oct,,,2179,NH DP SH RS PA,NY,3.2,E,Haines Falls
+-74.18,43.187,NORT,Northampton Beach - DEC,SPR,518.863.6000,early may-late sep,,,,NH DP DW SH RS PA,NY,2.7,S,Northville
+-76.109,43.218,ONEI,Oneida Shores County Park,CP,315.676.7366,,,50,,WE DP DW SH RS,NY,2.1,SE,Brewereton
+-77.407,42.71,ONTA,Ontario County Park - Gannet Hill,CP,585.374.6250,mid may-mid oct,unknown facilities,,2256,E RS,NY,6.5,N,Naples
+-75.418,42.181,OQUA,Oquaga Creek State Park,SP,607.467.4160,all year,,,1658,NH DP DW SH RS PA,NY,8.4,S,Bainbridge
+-73.679,43.885,PARA,Paradox Lake - DEC,SPR,518.532.7451,mid may-late sep,,,,NH DP DW SH RS PA,NY,1.7,W,Paradox
+-76.667,42.232,PARK,Park Station Rec Area,CP,607.737.2843,,,,,E DP DW SH,NY,3.2,N,Erin
+-75.344,43.403,PIXL,Pixley Falls State Park,SP,315.942.4713,,,,,NH NR,NY,5.6,S,Boonville
+-74.582,43.399,POIN,Point Comfort - DEC,SPR,518.548.7586,mid may-late aug,,,1689,NH RS PA,NY,4.3,SW,Piseco
+-73.503,44.404,POKE,Poke-O-Moonshine - DEC,SPR,518.834.9045,,,,,NH DW SH NR,NY,41.1,N,Schroon Lake
+-74.54,43.428,POPL,Poplar Point - DEC,SPR,518.548.8031,mid may-late aug,,,1682,NH RS PA,NY,1.4,SW,Piseco
+-73.571,43.838,PUTN,Putnam Pond - DEC,SPR,518.585.7280,mid may-late aug,,,,NH DP DW SH RS PA,NY,7.4,W,Ticonderoga
+-78.747,42.097,REDH,Red House - Allegany State Park,SP,716.354.9121,all year,,,,E DP SH RS,NY,4.5,S,Salamanca
+-75.75,44.035,REMI,Remington Park RV  Military - Fort Drum,MIL,315.773.7777,,military only - do not use our lat/lon - contact them for directions and info,,,RS,NY,0.6,SE,Fort Drum
+-76.546,42.398,ROBH,Robert H. Treman State Park,SP,607.273.3440,all year,,,,E DP 45ft SH RS PA,NY,3.9,SW,Ithaca
+-74.87,44.986,ROBM,Robert Moses State Park,SP,315.769.8663,mid may-late sep,,,,E DP DW SH RS PA,NY,4.1,N,Massena
+-73.488,43.789,ROGE,Rogers Rock - DEC,SPR,518.585.6746,mid may-late sep,,,,NH DP DW SH RS PA,NY,5.3,SW,Ticonderoga
+-74.407,44.307,ROLL,Rollins Pond - DEC,SPR,518.891.3239,mid may-late aug,,,1591,NH DP DW SH RS PA,NY,6.4,NE,Tupper Lake
+-74.027,41.378,ROUN,Round Pond Military,MIL,845.938.2503,,military only - do not use our lat/lon - contact them for directions and info,,,RS,NY,3.9,S,Cornwall
+-73.508,41.983,RUDD,Rudd Pond - Taconic State Park,SP,518.789.3059,early jun-late aug,,,,NH ND DW SH RS PA,NY,2.1,N,Millerton
+-74.294,43.36,SACA,Sacandaga - DEC,SPR,518.924.4121,mid may-late sep,,,,NH DP DW SH RS PA,NY,2.5,S,Wells
+-76.902,42.724,SAMP,Sampson State Park,SP,315.585.6392,mid may-late sep,,,,E DP DW SH RS PA,NY,4,SW,Romulus
+-72.555,40.888,SEAR,Sears Bellows,CP,631.852.8290,,,,,NH DP,NY,2.3,NW,Hampton Bays
+-76.204,43.557,SELK,Selkirk Shores State Park,SP,315.298.5737,mid may-mid oct,,,,E DP DW SH RS PA,NY,3.9,W,Pulaski
+-73.678,44.043,SHAR,Sharp Bridge - DEC,SPR,518.532.7538,mid may-late aug,,,,NH DP DW SH RS PA,NY,6.8,N,North Hudson
+-79.269,42.519,SHER,Sheridan Bay Park,CP,716.366.5831,,,,,E DP,NY,2.7,NW,Sheridan
+-72.472,40.842,SHIN,Shinnecock East County Park,CP,631.852.8899,,beach parking - no facilities - no tents,100,,NH ND NS,NY,5.2,SW,Southampton
+-76.886,42.492,SMIT,Smith Memorial Park,CP,607.546.9911,,swim,,,E DP FT DW SH,NY,0.9,SW,Hector
+-72.89,40.803,SOUC,Southaven County Park,CP,631.854.1414,,,,,NH DP,NY,,,
+-72.89,40.803,SOUH,Southhaven County Park,CP,631.854.1414,,,150,,NH DP,NY,,,
+-76.196,43.765,SOUT,Southwick Beach State Park,SP,315.846.5338,mid may-late sep,,,,E DP 50ft DW SH RS PA,NY,5.7,S,Henderson
+-78.636,42.592,SPRA,Sprague Brook Park,CP,716.858.8355,,,,,E DP SH,NY,2.2,SE,Glenwood
+-74.678,42.995,STJO,St. Johnsville Campsite and Marina,CP,518/568.7406,,,,,WES DP DW,NY,0.3,S,St Johnsville
+-77.697,42.526,STON,Stony Brook State Park,SP,585.335.8111,early may-late sep,,,,NH DP 30ft DW SH RS PA,NY,2.4,S,Dansville
+-76.607,42.54,TAUG,Taughannock Falls State Park,SP,607.387.6739,all year,,,,E DP SH RS PA,NY,3,E,Trumansburg
+-73.824,44.494,TAYL,Taylor Pond - DEC,SPR,518.647.5250,mid may-late aug,,,,NH RS PA,NY,8.2,NW,Au Sable Forks
+-71.901,41.056,THEO,Theodore Roosevelt County Park,CP,631.852.7879,,no facilities - self contained campers only,,,NH ND NS,NY,3.1,NE,Montauk
+-74.046,42.653,THOM,Thompsons Lake State Park,SP,518.872.1674,all year,,,,NH DP 40ft DW SH RS PA,NY,2.9,NE,East Berne
+-75.963,42.398,UPPL,Upper Lisle,CP,607.692.4612,,,,,NH DP,NY,4.8,N,Whitney Point
+-75.725,43.178,VERO,Verona Beach State Park,SP,315.762.4463,mid may-late sep,,,,NH DP DW SH RS PA,NY,0.9,S,Verona Beach
+-73.584,41.255,WARD,Ward Pound Ridge Reservation,CP,914.864.7317,,tents only,,,NH ND NS,NY,5.3,E,Katonah
+-76.881,42.37,WATK,Watkins Glen State Park,SP,607.535.4511,mid may-mid oct,,,,E DP DW SH RS PA,NY,0.8,SW,Watkins Glen
+-77.46,43.258,WEBS,Webster Park,CP,585.269.4544,,get res-fills up,45,,WES DP DW SH RS,NY,3.5,NW,Webster
+-76.019,44.316,WELL,Wellesley Island State Park,SP,315.482.2722,all year,,,,WES DP 40ft DW SH RS PA,NY,2,N,Fineview
+-76.114,43.897,WEST,Westcott Beach State Park,SP,315.646.2239,mid may-late aug,,,,E DP DW SH RS PA,NY,4.8,NE,Henderson
+-75.462,43.702,WHET,Whetstone Gulf State Park,SP,315.376.6630,early jun-late aug,,,,E DP DW SH RS PA,NY,6.1,S,Lowville
+-73.724,41.953,WILC,Wilcox Memorial Park,CP,845.758.6100,mid jun-late aug,swim,,,E,NY,3.5,E,Milan
+-72.805,40.963,WILD,Wildwood State Park,SP,631.929.4314,early jun-late sep,,,,WES DP DW SH RS,NY,2.1,NE,Wading River
+-73.861,44.35,WILM,Wilmington Notch - DEC,SPR,518.946.7172,mid may-late sep,,,,NH DP DW SH RS PA,NY,3.5,SW,Wilmington
+-74.273,41.537,WIND,Winding Hills Park,CP,845.457.4900,,,,,E DP,NY,2,W,Montgomery
+-74.37,42.033,WOOD,Woodland Valley - DEC,SPR,845.688.7647,mid may-late sep,,,,NH DW SH RS PA,NY,4.6,SW,Phoenicia
+-72.969,42.053,GRAN,Granville State Forest,SF,413.357.6611,early jun-late aug,,22,,NH ND DW SH RS PA,MA,5.6,W,Granville

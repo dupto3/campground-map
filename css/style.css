@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#sidebar {
+    position: absolute;
+    width: 600px;
+    z-index: 10;
+    background: #ffffff;
+    border: 0px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px;
+    margin-bottom: 10px;
+    color: #d35612;
+}
+
+#description {
+    font-size: 14px;
+    margin: 5px;
+    margin-bottom: 10px
+}
