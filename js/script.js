@@ -26,7 +26,12 @@ map.on('load', () => {
     source: {
       type: 'geojson',
       data: campgrounds
-    }
+    },
+    paint: {
+      'circle-color': '#91c949',
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 3, 15, 7], // circle radius increases with zoom
+      'circle-opacity': 1
+  }
 
   });
   buildLocationList(campgrounds);
@@ -94,7 +99,7 @@ function buildLocationList(campgrounds) {
 
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement('div'));
-    details.innerHTML = `${campground.properties.timeNyc}</b> away in ${campground.properties.city}, ${campground.properties.state}`;
+    details.innerHTML = `<b>${campground.properties.timeNyc}</b> away in ${campground.properties.city}, ${campground.properties.state}`;
 
     link.addEventListener('click', function () {
       for (const feature of campgrounds.features) {
