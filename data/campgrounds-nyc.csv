@@ -7,13 +7,13 @@
 -73.896,41.178,CROT,Croton Point Park,,NY,Croton-on-Huds,40.06,56,"1 hour, 2 hours, 3 hours",56m,Call,yes,yes,"Showers, Pets"
 -73.449,40.762,BATT,Battle Row Campground,516.572.8690,NY,Old Bethpage,34.83,57,"1 hour, 2 hours, 3 hours",57m,https://www.nassaucountyny.gov/2811/Battle-Row-Campground,yes,yes,"Showers, Pets"
 -74.59,41.002,MAHL,Mahlon Dickerson Reservation,973.697.3140,NJ,Lake Hopatcong,42.4,60,"1 hour, 2 hours, 3 hours",1 hour,https://www.morrisparks.net/index.php/parks/mahlon-dickerson-reservation,yes,yes,"Showers, Pets"
--74.939,40.663,SPRU,Spruce Run Recreation Area,908.638.8572,NJ,Clinton,52.59,66,"1 hour, 2 hours, 3 hours",1h 6m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=12,yes,no,Showers
--74.298,40.197,TURK,Turkey Swamp Park,732.462.7286,NJ,Freehold,51.23,69,"1 hour, 2 hours, 3 hours",1h 9m,https://www.monmouthcountyparks.com/page.aspx?Id=2522,yes,yes,"Showers, Pets"
--73.584,41.255,WARD,Ward Pound Ridge Reservation,914.864.7317,NY,Katonah,51.94,69,"1 hour, 2 hours, 3 hours",1h 9m,Call,,,
--73.222,40.825,BLYD,Blydenburgh Park,631.854.3712,NY,Smithtown,48.07,71,"1 hour, 2 hours, 3 hours",1h 11m,https://www.suffolkcountyny.gov/Departments/Parks/Our-Parks/Blydenburgh-County-Park,yes,yes,"Showers, Pets"
--74.81,40.872,STEP,Stephens State Park,908.852.3790,NJ,Hackettstown,52.68,73,"1 hour, 2 hours, 3 hours",1h 13m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=13,yes,yes,"Showers, Pets"
--73.569,41.309,MOUL,Mountain Lakes Park,914.864.7312,NY,North Salem,55.93,75,"1 hour, 2 hours, 3 hours",1h 15m,Call,no,yes,
--73.991,40.45,SANH,Sandy Hook - Gateway National Recreation Area,718.354.4655,NJ,Highlands,54.16,77,"1 hour, 2 hours, 3 hours",1h 17m,https://www.recreation.gov/camping/campgrounds/234714,no,no,
+-74.939,40.663,SPRU,Spruce Run Recreation Area,908.638.8572,NJ,Clinton,52.59,66,"2 hours, 3 hours",1h 6m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=12,yes,no,Showers
+-74.298,40.197,TURK,Turkey Swamp Park,732.462.7286,NJ,Freehold,51.23,69,"2 hours, 3 hours",1h 9m,https://www.monmouthcountyparks.com/page.aspx?Id=2522,yes,yes,"Showers, Pets"
+-73.584,41.255,WARD,Ward Pound Ridge Reservation,914.864.7317,NY,Katonah,51.94,69,"2 hours, 3 hours",1h 9m,Call,,,
+-73.222,40.825,BLYD,Blydenburgh Park,631.854.3712,NY,Smithtown,48.07,71,"2 hours, 3 hours",1h 11m,https://www.suffolkcountyny.gov/Departments/Parks/Our-Parks/Blydenburgh-County-Park,yes,yes,"Showers, Pets"
+-74.81,40.872,STEP,Stephens State Park,908.852.3790,NJ,Hackettstown,52.68,73,"2 hours, 3 hours",1h 13m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=13,yes,yes,"Showers, Pets"
+-73.569,41.309,MOUL,Mountain Lakes Park,914.864.7312,NY,North Salem,55.93,75,"2 hours, 3 hours",1h 15m,Call,no,yes,
+-73.991,40.45,SANH,Sandy Hook - Gateway National Recreation Area,718.354.4655,NJ,Highlands,54.16,77,"2 hours, 3 hours",1h 17m,https://www.recreation.gov/camping/campgrounds/234714,no,no,
 -74.131,40.162,ALLA,Allaire State Park,732.938.2371,NJ,Farmingdale,59.51,80,"2 hours, 3 hours",1h 20m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=2,yes,yes,"Showers, Pets"
 -74.915,40.917,JENN,Jenny Jump State Forest,908.459.4366,NJ,Blairstown,57.17,81,"2 hours, 3 hours",1h 21m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=8,yes,yes,"Showers, Pets"
 -75,41.027,MOHI,Mohican Campsite,603.466.2727,NJ,Blairstown,60.99,81,"2 hours, 3 hours",1h 21m,https://www.outdoors.org/destinations/new-jersey-new-york/mohican-campsites/,yes,yes,"Showers, Pets"
@@ -39,14 +39,14 @@
 -74.547,39.69,GODF,Wharton State Forest,609.561.0024,NJ,Chatsworth,98.61,119,"2 hours, 3 hours",1h 59m,https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=19,yes,yes,"Showers, Pets"
 -75.267,40.476,LAKT,Lake Towhee County Park,215.757.0571,PA,Applebachsvill,92.23,120,"2 hours, 3 hours",2h,,,,
 -73.384,41.709,LAKE,Lake Waramaug State Park,860.868.0220,CT,Kent,91.71,123,"2 hours, 3 hours",2h 3m,,,,
--72.472,40.842,SHIN,Shinnecock East County Park,631.852.8899,NY,Southampton,91.5,124,"2 hours, 3 hours",2h 4m,https://www.suffolkcountyny.gov/Departments/Parks/Our-Parks/Shinnecock-East-County-Park,yes,yes,"Showers, Pets"
--75.397,41.207,TOBY,Tobyhanna State Park,570.894.8336,PA,Tobyhanna,96.72,124,"2 hours, 3 hours",2h 4m,,,,
--73.216,41.727,WIND,White Memorial Family Campground,860.567.0089,CT,Litchfield,93.93,124,"2 hours, 3 hours",2h 4m,,,,
--72.738,40.771,CUPS,Cupsogue Beach County Park,631.852.8111,NY,Westhampton,85.25,125,"2 hours, 3 hours",2h 5m,https://www.suffolkcountyny.gov/Departments/Parks/Our-Parks/Cupsogue-Beach-County-Park,yes,yes,"Showers, Pets"
--73.932,41.84,MARG,Margaret Norrie State Park,845.889.4646,NY,Staatsburg,89.14,126,"2 hours, 3 hours",2h 6m,https://newyorkstateparks.reserveamerica.com/camping/mills-norriestatepark/r/campgroundDetails.do?contractCode=NY&parkId=401,yes,yes,"Showers, Pets"
--73.224,41.71,POIN,Point Folly - White Memorial,860.567.0089,CT,Bantam,95.06,126,"2 hours, 3 hours",2h 6m,,,,
--73.724,41.953,WILC,Wilcox Memorial Park,845.758.6100,NY,Milan,92.63,128,"2 hours, 3 hours",2h 8m,,,,
--73.098,41.651,BLAC,Black Rock State Park,860.283.8088,CT,Thomaston,97.64,130,"2 hours, 3 hours",2h 10m,,,,
+-72.472,40.842,SHIN,Shinnecock East County Park,631.852.8899,NY,Southampton,91.5,124,3 hours,2h 4m,https://www.suffolkcountyny.gov/Departments/Parks/Our-Parks/Shinnecock-East-County-Park,yes,yes,"Showers, Pets"
+-75.397,41.207,TOBY,Tobyhanna State Park,570.894.8336,PA,Tobyhanna,96.72,124,3 hours,2h 4m,,,,
+-73.216,41.727,WIND,White Memorial Family Campground,860.567.0089,CT,Litchfield,93.93,124,3 hours,2h 4m,,,,
+-72.738,40.771,CUPS,Cupsogue Beach County Park,631.852.8111,NY,Westhampton,85.25,125,3 hours,2h 5m,https://www.suffolkcountyny.gov/Departments/Parks/Our-Parks/Cupsogue-Beach-County-Park,yes,yes,"Showers, Pets"
+-73.932,41.84,MARG,Margaret Norrie State Park,845.889.4646,NY,Staatsburg,89.14,126,3 hours,2h 6m,https://newyorkstateparks.reserveamerica.com/camping/mills-norriestatepark/r/campgroundDetails.do?contractCode=NY&parkId=401,yes,yes,"Showers, Pets"
+-73.224,41.71,POIN,Point Folly - White Memorial,860.567.0089,CT,Bantam,95.06,126,3 hours,2h 6m,,,,
+-73.724,41.953,WILC,Wilcox Memorial Park,845.758.6100,NY,Milan,92.63,128,3 hours,2h 8m,,,,
+-73.098,41.651,BLAC,Black Rock State Park,860.283.8088,CT,Thomaston,97.64,130,3 hours,2h 10m,,,,
 -73.377,41.823,HOUS,Housatonic Meadows State Park,860.672.6772,CT,Sharon,97.71,135,3 hours,2h 15m,,,,
 -75.182,41.449,WILS,Wilsonville Rec Area ,570.226.4382,PA,Hawley,94.64,136,3 hours,2h 16m,,,,
 -72.556,41.265,HAMM,Hammonasset State Park,203.245.1817,CT,Madison,96.39,136,3 hours,2h 16m,,,,
