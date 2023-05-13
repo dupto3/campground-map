@@ -136,7 +136,7 @@ function createPopUp(currentFeature) {
 
   const popup = new mapboxgl.Popup({ closeOnClick: false })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML(`<h4>${currentFeature.properties.name}</h4><br><h3><a href="${currentFeature.properties.URL}">Reserve <i class="fa-solid fa-arrow-right"></i></a></h3>`)
+    .setHTML(`<h4>${currentFeature.properties.name}</h4><br><h3><a href="${currentFeature.properties.URL}" target="_blank">Reserve <i class="fa-solid fa-arrow-right"></i></a></h3>`)
     .addTo(map);
 }
 
