@@ -29,7 +29,7 @@ map.on('load', () => {
     },
     paint: {
       'circle-color': '#91c949',
-      'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 3, 15, 7], // circle radius increases with zoom
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 5, 15, 10], // circle radius increases with zoom
       'circle-opacity': 1
   }
 
