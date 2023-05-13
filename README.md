@@ -22,5 +22,5 @@ Data Sources:
 
 Code sources:
 - Store locator sidebar: https://docs.mapbox.com/help/tutorials/building-a-store-locator/
-- https://labs.mapbox.com/education/impact-tools/finder-with-filters/
+- Dropdown filter: https://labs.mapbox.com/education/impact-tools/finder-with-filters/
 - min to hrs/min: https://plainenglish.io/blog/javascript-convert-minutes-to-hours-and-minutes
