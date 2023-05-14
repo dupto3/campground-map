@@ -48,7 +48,7 @@
   background: #3e3e3e;
   height: 100px;
   padding-left: 20px;
-  color: #8cd033;
+  color: #8cc63f;
   position: relative;
   width: 100%;
   top: 0;
@@ -114,9 +114,9 @@
 }
 
 .mapboxgl-popup-content {
-  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  font: 400 1px/10px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
   padding: 0;
-  width: 180px;
+  width: 300px;
 }
 
 .mapboxgl-popup-content h3 {
