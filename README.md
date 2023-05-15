@@ -15,10 +15,8 @@ Data Sources:
 - 
 
 ### To do:
-- Filter for: 1, 2, or 3 hours away
-- Dropdown control layers
 - Zoom change depending on layer
-- style popup and store locator
+- Star marker for NYC
 
 Code sources:
 - Store locator sidebar: https://docs.mapbox.com/help/tutorials/building-a-store-locator/
