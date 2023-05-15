@@ -1,6 +1,6 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoidXB0b24zMyIsImEiOiJjbGdjZGYxZjUwMW52M2xwY2tqbnQxb3VtIn0.kwrf2PNrfHFdvpflNBj7ow';
 
-let geojsonData = {};
+let campgrounds = {};
 const filteredGeojson = {
   type: 'FeatureCollection',
   features: [],
@@ -8,105 +8,59 @@ const filteredGeojson = {
 
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/dark-v11',
+  style: 'mapbox://styles/upton33/clhnoz0i8034s01qmfgrkfu63',
   center: [-73.9712, 40.7831],
   zoom: 6.7,
-  scrollZoom: false
+  scrollZoom: false,
+  transformRequest: transformRequest,
 });
 
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
-
-
-map.on('load', () => {
-  /* Add campground data map as a layer */
-  map.addLayer({
-    id: 'locations',
-    type: 'circle',
-    source: {
-      type: 'geojson',
-      data: campgrounds
-    },
-    paint: {
-      'circle-color': '#91c949',
-      'circle-radius': ['interpolate', ['linear'], ['zoom'], 8, 5, 15, 10], // circle radius increases with zoom
-      'circle-opacity': 1
-  }
-
-  });
-  buildLocationList(campgrounds);
-
-
-  map.on('mouseenter', 'locations', () => {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-
-  map.on('mouseleave', 'locations', () => {
-    map.getCanvas().style.cursor = '';
-  });
+function createPopup(currentFeature) {
+  const popups = document.getElementsByClassName('mapboxgl-popup');
+  /** Check if there is already a popup on the map and if so, remove it */
+  if (popups[0]) popups[0].remove(); 
+  new mapboxgl.Popup({ closeOnClick: true })
+    .setLngLat(currentFeature.geometry.coordinates)
+    .setHTML(`<h4>${currentFeature.properties.name}<br><br><center>${currentFeature.properties.showerIcon}&nbsp&nbsp&nbsp&nbsp${currentFeature.properties.petsIcon}</center><br><h3><a href="${currentFeature.properties.URL}" target="_blank">Reserve <i class="fa-solid fa-arrow-right"></i></a></h3>`)
+    .addTo(map);
 }
-);
 
+function buildLocationList(locations) {
+  /* Add a new listing section to the sidebar. */
+  const listings = document.getElementById('listings');
+  listings.innerHTML = '';
+  locations.features.forEach((location, i) => {
+    const prop = location.properties;
 
-
-
-map.on('click', (event) => {
-  /* Determine if a feature in the "locations" layer exists at that point. */
-  const features = map.queryRenderedFeatures(event.point, {
-    layers: ['locations']
-  });
-
-  /* If it does not exist, return */
-  if (!features.length) return;
-
-  const clickedPoint = features[0];
-
-
-  /* Close all other popups and display popup for clicked campground */
-  createPopUp(clickedPoint);
-
-  /* Highlight listing in sidebar (and remove highlight for all other listings) */
-  const activeItem = document.getElementsByClassName('active');
-  if (activeItem[0]) {
-    activeItem[0].classList.remove('active');
-  }
-  const listing = document.getElementById(
-    `listing-${clickedPoint.properties.id}`
-  );
-  listing.classList.add('active');
-});
-
-function buildLocationList(campgrounds) {
-  for (const campground of campgrounds.features) {
-    /* Add a new listing section to the sidebar. */
-    const listings = document.getElementById('listings');
     const listing = listings.appendChild(document.createElement('div'));
     /* Assign a unique `id` to the listing. */
-    listing.id = `listing-${campground.properties.id}`;
+    listing.id = 'listing-' + prop.id;
+
     /* Assign the `item` class to each listing for styling. */
     listing.className = 'item';
 
     /* Add the link to the individual listing created above. */
-    const link = listing.appendChild(document.createElement('a'));
-    link.href = '#';
+    const link = listing.appendChild(document.createElement('button'));
     link.className = 'title';
-    link.id = `link-${campground.properties.id}`;
-    link.innerHTML = `${campground.properties.name}`;
-
-
-
-
+    link.innerHTML = `${prop.name}`;
 
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement('div'));
-    details.innerHTML = `<b>${campground.properties.timeNyc}</b> away in ${campground.properties.city}, ${campground.properties.state}`;
+    details.className = 'content';
+
+    const div = document.createElement('div');
+    details.innerHTML = `<b>${prop.timeNyc}</b> away in ${prop.city}, ${prop.state}`;
+    //     div.innerText += prop[columnHeaders[i]];
+    div.className;
+    details.appendChild(div);
+
 
     link.addEventListener('click', function () {
-      for (const feature of campgrounds.features) {
-        if (this.id === `link-${feature.properties.id}`) {
-          createPopUp(feature);
-        }
-      }
+      const clickedListing = location.geometry.coordinates;
+      createPopup(location);
+
       const activeItem = document.getElementsByClassName('active');
       if (activeItem[0]) {
         activeItem[0].classList.remove('active');
@@ -130,39 +84,13 @@ function buildLocationList(campgrounds) {
         }
       }
     });
-  };
+  });
 }
-
-
-function createPopUp(currentFeature) {
-  const popUps = document.getElementsByClassName('mapboxgl-popup');
-  /** Check if there is already a popup on the map and if so, remove it */
-  if (popUps[0]) popUps[0].remove();
-
-  const popup = new mapboxgl.Popup({ closeOnClick: false })
-    .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML(`<h4>${currentFeature.properties.name}<br>${currentFeature.properties.showerIcon}&nbsp&nbsp${currentFeature.properties.petsIcon}<br><h3><a href="${currentFeature.properties.URL}" target="_blank">Reserve <i class="fa-solid fa-arrow-right"></i></a></h3>`)
-    .addTo(map);
-}
-
-
-
-
-
-
-
-
-
-
-// BUILD FILTERS
-// code source: https://labs.mapbox.com/education/impact-tools/finder-with-filters/
-
-
 
 const filterinfo = [
   {
     type: 'dropdown',
-    title: 'Hours from NYC:',
+    title: '',
     columnHeader: 'hrNyc',
     listItems: [
       '1 hour',
@@ -170,12 +98,12 @@ const filterinfo = [
       '3 hours',
     ],
   },
-  // {
-  //   type: 'checkbox',
-  //   title: 'Checkbox Filters: ',
-  //   columnHeader: 'Filters', // Case sensitive - must match spreadsheet entry
-  //   listItems: ['Showers', 'Pets'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
-  // },
+  {
+    type: 'checkbox',
+    title: '',
+    columnHeader: 'filters', // Case sensitive - must match spreadsheet entry
+    listItems: ['Showers', 'Pets'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+  },
 ]
 
 
@@ -187,10 +115,9 @@ const filterinfo = [
 function buildDropDownList(title, listItems) {
   const filtersDiv = document.getElementById('filters');
   const mainDiv = document.createElement('div');
-  // const filterTitle = document.createElement('h3');
-  // filterTitle.innerText = title;
-  // filterTitle.classList.add('py12', 'txt-bold');
-  // mainDiv.appendChild(filterTitle);
+  const filterTitle = document.createElement('h6');
+  filterTitle.innerText = `Driving time from NYC:`;
+  mainDiv.appendChild(filterTitle);
 
   const selectContainer = document.createElement('div');
   selectContainer.classList.add('select-container', 'center');
@@ -308,7 +235,7 @@ function applyFilters() {
     const geojSelectFilters = [];
     const geojCheckboxFilters = [];
 
-  filteredGeojson.features = [];
+    filteredGeojson.features = [];
     // const filteredFeatures = [];
     // filteredGeojson.features = [];
 
@@ -430,8 +357,8 @@ function removeFilters() {
     option.selectedIndex = 0;
   });
 
-  map.getSource('campgrounds').setData(geojsonData);
-  buildLocationList(geojsonData);
+  map.getSource('locations').setData(campgrounds);
+  buildLocationList(campgrounds);
 }
 
 function removeFiltersButton() {
@@ -440,11 +367,11 @@ function removeFiltersButton() {
     removeFilters();
   });
 }
+removeFiltersButton();
 
 createFilterObject(filterinfo);
 applyFilters();
 filters(filterinfo);
-removeFiltersButton();
 
 const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
@@ -459,7 +386,7 @@ function sortByDistance(selectedPoint) {
   if (filteredGeojson.features.length > 0) {
     data = filteredGeojson;
   } else {
-    data = geojsonData;
+    data = campgrounds;
   }
   data.features.forEach((data) => {
     Object.defineProperty(data.properties, 'distance', {
@@ -484,4 +411,112 @@ function sortByDistance(selectedPoint) {
     listings.removeChild(listings.firstChild);
   }
   buildLocationList(data);
+}
+
+geocoder.on('result', (ev) => {
+  const searchResult = ev.result.geometry;
+  sortByDistance(searchResult);
+});
+
+
+map.on('load', () => {
+
+  // csv2geojson - following the Sheet Mapper tutorial https://www.mapbox.com/impact-tools/sheet-mapper
+  console.log('loaded');
+  $(document).ready(() => {
+    console.log('ready');
+    $.ajax({
+      type: 'GET',
+      url: 'data/campgroundsnyc.csv',
+      dataType: 'text',
+      success: function (csvData) {
+        makeGeoJSON(csvData);
+      },
+      error: function (request, status, error) {
+        console.log(request);
+        console.log(status);
+        console.log(error);
+      },
+    });
+  });
+
+  function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(
+      csvData,
+      {
+        latfield: 'latitude',
+        lonfield: 'longitude',
+        delimiter: ',',
+      },
+      (err, data) => {
+        data.features.forEach((data, i) => {
+          data.properties.id = i;
+        });
+
+        campgrounds = data;
+        // Add the the layer to the map
+        map.addLayer({
+          id: 'locations',
+          type: 'circle',
+          source: {
+            type: 'geojson',
+            data: campgrounds,
+          },
+          paint: {
+            'circle-radius': 6, // size of circles
+            'circle-color': '#ff944d', // color of circles
+            'circle-stroke-color': 'white',
+            'circle-stroke-width': 0,
+            'circle-opacity': 1,
+          },
+        });
+      },
+    );
+
+    map.on('click', 'locations', (e) => {
+      const features = map.queryRenderedFeatures(e.point, {
+        layers: ['locations'],
+      });
+      const clickedPoint = features[0].geometry.coordinates;
+      sortByDistance(clickedPoint);
+      createPopup(features[0]);
+    });
+
+    map.on('mouseenter', 'locations', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('mouseleave', 'locations', () => {
+      map.getCanvas().style.cursor = '';
+    });
+    buildLocationList(campgrounds);
+  }
+});
+
+// Modal - popup for filtering results
+const filterResults = document.getElementById('filterResults');
+const exitButton = document.getElementById('exitButton');
+const modal = document.getElementById('modal');
+
+// filterResults.addEventListener('click', () => {
+//   modal.classList.remove('hide-visually');
+//   modal.classList.add('z5');
+// });
+
+// exitButton.addEventListener('click', () => {
+//   modal.classList.add('hide-visually');
+// });
+
+const title = document.getElementById('title');
+// title.innerText = config.title;
+const description = document.getElementById('description');
+// description.innerText = config.description;
+
+function transformRequest(url) {
+  const isMapboxRequest =
+    url.slice(8, 22) === 'api.mapbox.com' ||
+    url.slice(10, 26) === 'tiles.mapbox.com';
+  return {
+    url: isMapboxRequest ? url.replace('?', '?pluginName=finder&') : url,
+  };
 }
