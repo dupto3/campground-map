@@ -9,18 +9,20 @@ const filteredGeojson = {
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/upton33/clhnoz0i8034s01qmfgrkfu63',
-  center: [-73.9712, 40.7831],
-  zoom: 6.7,
+  center: [-75, 40.9],
+  zoom: 6.9,
   scrollZoom: false,
   transformRequest: transformRequest,
 });
 
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
+
+
 function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
   /** Check if there is already a popup on the map and if so, remove it */
-  if (popups[0]) popups[0].remove(); 
+  if (popups[0]) popups[0].remove();
   new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML(`<h4>${currentFeature.properties.name}<br><br><center>${currentFeature.properties.showerIcon}&nbsp&nbsp&nbsp&nbsp${currentFeature.properties.petsIcon}</center><br><h3><a href="${currentFeature.properties.URL}" target="_blank">Reserve <i class="fa-solid fa-arrow-right"></i></a></h3>`)
@@ -104,6 +106,7 @@ const filterinfo = [
     columnHeader: 'filters', // Case sensitive - must match spreadsheet entry
     listItems: ['Showers', 'Pets'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
   },
+  
 ]
 
 
@@ -115,7 +118,8 @@ const filterinfo = [
 function buildDropDownList(title, listItems) {
   const filtersDiv = document.getElementById('filters');
   const mainDiv = document.createElement('div');
-  const filterTitle = document.createElement('h6');
+  const filterTitle = document.createElement('div');
+  filterTitle.classList.add('center', 'flex-parent', 'py12', 'txt-bold');
   filterTitle.innerText = `Driving time from NYC:`;
   mainDiv.appendChild(filterTitle);
 
@@ -171,7 +175,7 @@ function buildCheckbox(title, listItems) {
     'px3',
     'flex-parent--space-between-main',
   );
-  filterTitle.innerText = title;
+  filterTitle.innerText = `Amenities:`;
   mainDiv.appendChild(filterTitle);
   mainDiv.appendChild(formatcontainer);
 
@@ -465,8 +469,8 @@ map.on('load', () => {
           paint: {
             'circle-radius': 6, // size of circles
             'circle-color': '#ff944d', // color of circles
-            'circle-stroke-color': 'white',
-            'circle-stroke-width': 0,
+            'circle-stroke-color': '#606756',
+            'circle-stroke-width': 1,
             'circle-opacity': 1,
           },
         });
@@ -491,7 +495,52 @@ map.on('load', () => {
     });
     buildLocationList(campgrounds);
   }
+
+  // add NYC star
+
+  map.loadImage(
+    'images/pngegg.png',
+    (error, image) => {
+      if (error) throw error;
+
+      // Add the image to the map style.
+      map.addImage('NYC', image);
+
+      // Add a data source containing one point feature.
+      map.addSource('point', {
+        'type': 'geojson',
+        'data': {
+          'type': 'FeatureCollection',
+          'features': [
+            {
+              'type': 'Feature',
+              'geometry': {
+                'type': 'Point',
+                'coordinates': [-73.9712, 40.7831]
+              }
+            }
+          ]
+        }
+      });
+
+      // Add a layer to use the image to represent the data.
+      map.addLayer({
+        'id': 'points',
+        'type': 'symbol',
+        'source': 'point', // reference the data source
+        'layout': {
+          'icon-image': 'NYC', // reference the image
+          'icon-size': 0.09
+        }
+      });
+    }
+  );
+
+
+
 });
+
+
 
 // Modal - popup for filtering results
 const filterResults = document.getElementById('filterResults');
@@ -520,3 +569,4 @@ function transformRequest(url) {
     url: isMapboxRequest ? url.replace('?', '?pluginName=finder&') : url,
   };
 }
+
