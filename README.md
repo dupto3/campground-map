@@ -7,6 +7,8 @@ The map filters focus on my main concerns when finding a campground:
 -Pet-friendly: Can I bring my dog?
 -Showers: Can I take a shower after hiking?
 
+GitHub Repository: https://github.com/dupto3/campground-map
+
 
 ### Data Sources: 
 - https://data.world/caroline/campgrounds
