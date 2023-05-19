@@ -104,9 +104,9 @@ const filterinfo = [
     type: 'checkbox',
     title: '',
     columnHeader: 'filters', // Case sensitive - must match spreadsheet entry
-    listItems: ['Showers', 'Pets'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+    listItems: ['Showers', 'PetFriendly'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
   },
-  
+
 ]
 
 
@@ -147,7 +147,10 @@ function buildDropDownList(title, listItems) {
     dropDown.appendChild(el1);
   }
   filtersDiv.appendChild(mainDiv);
+
 }
+
+
 
 // Build checkbox function
 // title - the name or 'category' of the selection e.g. 'Languages: '
@@ -332,6 +335,7 @@ function applyFilters() {
 
     map.getSource('locations').setData(filteredGeojson);
     buildLocationList(filteredGeojson);
+
   });
 }
 
@@ -384,6 +388,22 @@ const geocoder = new MapboxGeocoder({
   zoom: 11,
 });
 
+// add campground count to sidebar
+
+
+map.on('render', function() {
+  var filteredcount = map.queryRenderedFeatures({ layers: ['locations'] }).length;
+  if(filteredcount == 0){
+    document.getElementById('summary').innerHTML = "0 Results. Please Adjust Filters";
+  } else{
+    document.getElementById('summary').innerHTML = filteredcount + " campgrounds found:";
+  }
+
+
+  });
+
+// sort by distance
+
 function sortByDistance(selectedPoint) {
   const options = { units: 'miles' };
   let data;
@@ -416,6 +436,7 @@ function sortByDistance(selectedPoint) {
   }
   buildLocationList(data);
 }
+
 
 geocoder.on('result', (ev) => {
   const searchResult = ev.result.geometry;
