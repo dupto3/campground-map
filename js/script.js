@@ -146,6 +146,7 @@ function buildDropDownList(title, listItems) {
     const el1 = document.createElement('option');
     el1.textContent = opt;
     el1.value = opt;
+    el1.id =opt.replace(/\s/g,'');
     dropDown.appendChild(el1);
   }
   filtersDiv.appendChild(mainDiv);
@@ -593,14 +594,14 @@ const myInput = document.getElementById('myInput')
 // add campground count to sidebar
 
 
-// map.on('render', function() {
-//   var filteredcount = map.queryRenderedFeatures({ layers: ['locations'] }).length;
-//   if(filteredcount == 0){
-//     document.getElementById('summary').innerHTML = "0 Results. Please Adjust Filters";
-//   } else{
-//     document.getElementById('summary').innerHTML = filteredcount + " campgrounds found:";
-//   }
+map.on('render', function() {
+  var filteredcount = map.queryRenderedFeatures({ layers: ['locations'] }).length;
+  if(filteredcount == 0){
+    document.getElementById('summary').innerHTML = "0 Results. Please Adjust Filters";
+  } else{
+    document.getElementById('summary').innerHTML = filteredcount + " campgrounds found:";
+  }
 
 
-//   });
+  });
 
