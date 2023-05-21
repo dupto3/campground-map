@@ -1,3 +1,5 @@
+
+
 mapboxgl.accessToken = 'pk.eyJ1IjoidXB0b24zMyIsImEiOiJjbGdjZGYxZjUwMW52M2xwY2tqbnQxb3VtIn0.kwrf2PNrfHFdvpflNBj7ow';
 
 let campgrounds = {};
@@ -388,21 +390,7 @@ const geocoder = new MapboxGeocoder({
   zoom: 11,
 });
 
-// add campground count to sidebar
 
-
-map.on('render', function() {
-  var filteredcount = map.queryRenderedFeatures({ layers: ['locations'] }).length;
-  if(filteredcount == 0){
-    document.getElementById('summary').innerHTML = "0 Results. Please Adjust Filters";
-  } else{
-    document.getElementById('summary').innerHTML = filteredcount + " campgrounds found:";
-  }
-
-
-  });
-
-// sort by distance
 
 function sortByDistance(selectedPoint) {
   const options = { units: 'miles' };
@@ -590,4 +578,29 @@ function transformRequest(url) {
     url: isMapboxRequest ? url.replace('?', '?pluginName=finder&') : url,
   };
 }
+
+//modal
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+// myModal.addEventListener('shown.bs.modal', () => {
+//   myInput.focus()
+// })
+
+
+
+// add campground count to sidebar
+
+
+// map.on('render', function() {
+//   var filteredcount = map.queryRenderedFeatures({ layers: ['locations'] }).length;
+//   if(filteredcount == 0){
+//     document.getElementById('summary').innerHTML = "0 Results. Please Adjust Filters";
+//   } else{
+//     document.getElementById('summary').innerHTML = filteredcount + " campgrounds found:";
+//   }
+
+
+//   });
 
